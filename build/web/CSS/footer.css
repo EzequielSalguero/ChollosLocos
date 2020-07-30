@@ -1,0 +1,179 @@
+footer{
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: left;
+    padding: 40px 60px 40px;
+    margin-top: 30px;
+    overflow: hidden;
+    border-top: 4px solid #E6007E;
+}
+
+
+footer .footer-left{
+    float: left;
+}
+
+
+/* ENLACES */
+
+footer .footer-links{
+    font-size: 16px;
+    color:  #E6007E;
+    margin-bottom: 10px;
+}
+
+footer .footer-links a{
+    display:inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color:  inherit;
+}
+
+footer .autores{
+    font-size: 16px;
+    margin-top: 40px;
+    color: #E6007E;
+}
+
+
+footer .footer-icons{
+    margin-top: 60px;
+}
+
+footer .footer-icons a{
+  
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #E6007E;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    padding: 2px;
+    margin-bottom: 5px;
+
+}
+
+
+footer a:hover{
+    -webkit-transition: 2s ease;
+            transition: 2s ease;
+    text-decoration: underline;
+}
+
+footer .footer-right{
+    float: right;
+}
+
+footer .footer-right p{
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 42px 0 0;
+    color: #E6007E;
+}
+
+footer form{
+    display: inline-block;
+}
+
+footer form input, footer form textarea{
+    display: block;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    font: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    color: #E6007E;
+    width: 400px;
+    padding: 18px;
+    border:0;
+    border-left: 4px solid #E6007E;
+}
+
+footer ::-webkit-input-placeholder {
+    color: #E6007E;
+    font-weight: bold;
+}
+
+footer ::-moz-placeholder {
+    color: #E6007E;
+    font-weight: bold;
+}
+
+
+footer form input{
+    margin-bottom: 15px;
+}
+
+footer form textarea{
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+footer form input[type="submit"] {
+    border-radius: 3px;
+    background-color: #ffffff;
+    color: #E6007E;
+    border: solid 2px #E6007E;
+    padding: 8px 50px;
+    font-size: 15px;
+    font-weight: bold;
+    float: right;
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 850px) {
+
+    footer {
+        font: bold 14px sans-serif;
+    }
+
+
+    footer form input, footer form textarea{
+        width: 250px;
+    }
+
+    footer form button{
+        padding: 10px 35px;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+
+    footer{
+        padding: 30px;
+    }
+
+    footer .footer-left, footer .footer-right{
+        float: none;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    footer.footer-left{
+        margin-bottom: 40px;
+    }
+
+    footer form{
+        margin-top: 30px;
+    }
+
+    footer form{
+        display: block;
+    }
+
+    footer form button{
+        float: none;
+    }
+}

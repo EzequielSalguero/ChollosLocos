@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+@font-face{
+    font-family: titulo;
+    src:url(../FUENTES/../FUENTES/barcade.ttf);
+}
+
+
+body {
+    margin: 0;
+}
+
+header{
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+header a img#logo {
+    margin-top: 2.5vw;
+    width: 35vw;
+    height: 11vw;
+}
+
+.registro{
+    padding: 20px;
+    margin: auto;
+    margin-top: 15vmax;
+    position: relative;
+    width: 70%;
+    background-color: #fafcff;
+    border-radius: 0;
+    border-left: 7px solid purple;
+    border-right: 7px solid purple;
+    border-bottom: 7px solid purple;
+}
+
+.registro h2{
+    padding: 20px;
+    font-size: 3vw;
+    text-align: center;
+    color: #E6007E;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.registro form input{
+    color:#3E3E3E;
+    font-weight: 700;
+    margin: auto;
+    padding: 20px 0; 
+    width: 50%;
+    font-size: 1em;
+    display: block;
+    background-color: #fafcff;
+    border: none;
+    border-bottom: solid 1px #E6007E;
+}
+
+.registro form input:focus{
+    outline:0px;
+    border-bottom: solid 3px #E6007E;
+}
+
+.registro form input[type="submit"]{
+    color: #fff;
+    margin-top: 10px;
+    width: 25%;
+    border-radius: 5px;
+    background-color: #E6007E;
+    font-weight: bold;
+    border: solid 2px #E6007E;
+}
+
+.registro form input[type="submit"]:hover{
+    background-color: #fafcff;
+    border:inset 2px #E6007E;
+    color:#E6007E;
+}
+
+button{
+    background-color: #E6007E;
+    color:white;
+}
+
+
+
+@media screen and (max-width:500px){
+
+    .registro{
+        padding: 15px;
+        width: 90%;
+        border-radius: 5px;
+        margin-top: 19vmax;
+    }
+
+    .registro h2{
+        padding: 18px;
+        font-size: 5vw;
+    }
+
+
+    .registro form input{ 
+        width: 100%;
+        font-size: 0.8em;
+        border: none;
+        border-bottom: solid 1px #E6007E;
+        padding-left: 10px;
+    }
+
+    .registro form input:focus{
+        border-bottom: solid 2px #E6007E;
+    }
+
+    .registro form input[type="submit"]{
+        font-size: 4.5vw;
+        width: 90%;
+
+    }
+
+    header a img#logo{
+        width: 38vw;
+        height: 12vw;
+        margin-top: 0;
+    }
+
+}
